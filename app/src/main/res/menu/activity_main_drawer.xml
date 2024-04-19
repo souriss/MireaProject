@@ -24,5 +24,10 @@
             android:id="@+id/nav_webViewFragment"
             android:icon="?attr/actionModeShareDrawable"
             android:title="webViewFragment"/>
+        <item
+            android:id="@+id/backgroundTaskFragment"
+            android:icon="?attr/actionModeShareDrawable"
+            android:title="backgroundTaskFragment"/>
+
     </group>
 </menu>
