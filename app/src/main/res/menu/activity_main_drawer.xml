@@ -28,6 +28,18 @@
             android:id="@+id/backgroundTaskFragment"
             android:icon="?attr/actionModeShareDrawable"
             android:title="backgroundTaskFragment"/>
+        <item
+            android:id="@+id/compassFragment"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="compassFragment"/>
+        <item
+            android:id="@+id/photoCollageFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="photoCollageFragment"/>
+        <item
+            android:id="@+id/audioRecordFragment"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="audioRecordFragment"/>
 
     </group>
 </menu>

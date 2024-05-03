@@ -37,4 +37,19 @@
         android:name="ru.mirea.lednevadd.mireaproject.BackgroundTaskFragment"
         android:label="fragment_background_task"
         tools:layout="@layout/fragment_background_task" />
+    <fragment
+        android:id="@+id/compassFragment"
+        android:name="ru.mirea.lednevadd.mireaproject.CompassFragment"
+        android:label="fragment_compass"
+        tools:layout="@layout/fragment_compass" />
+    <fragment
+        android:id="@+id/photoCollageFragment"
+        android:name="ru.mirea.lednevadd.mireaproject.PhotoCollageFragment"
+        android:label="fragment_photo_collage"
+        tools:layout="@layout/fragment_photo_collage" />
+    <fragment
+        android:id="@+id/audioRecordFragment"
+        android:name="ru.mirea.lednevadd.mireaproject.AudioRecordFragment"
+        android:label="fragment_audio_record"
+        tools:layout="@layout/fragment_audio_record" />
 </navigation>
