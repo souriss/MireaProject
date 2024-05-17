@@ -40,6 +40,15 @@
             android:id="@+id/audioRecordFragment"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="audioRecordFragment"/>
+        <item
+            android:id="@+id/profileFragment"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Profile"/>
+        <item
+            android:id="@+id/workWithFilesFragment"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Work With Files"/>
+
 
     </group>
 </menu>

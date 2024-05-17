@@ -52,4 +52,14 @@
         android:name="ru.mirea.lednevadd.mireaproject.AudioRecordFragment"
         android:label="fragment_audio_record"
         tools:layout="@layout/fragment_audio_record" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="ru.mirea.lednevadd.mireaproject.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/workWithFilesFragment"
+        android:name="ru.mirea.lednevadd.mireaproject.WorkWithFilesFragment"
+        android:label="fragment_work_with_files"
+        tools:layout="@layout/fragment_work_with_files" />
 </navigation>
