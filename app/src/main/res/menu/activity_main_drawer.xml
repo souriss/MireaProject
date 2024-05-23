@@ -48,7 +48,17 @@
             android:id="@+id/workWithFilesFragment"
             android:icon="@android:drawable/ic_menu_edit"
             android:title="Work With Files"/>
-
-
+        <item
+            android:id="@+id/firebaseFragment"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="Firebase"/>
+        <item
+            android:id="@+id/establishmentsFragment"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Establishments"/>
+        <item
+            android:id="@+id/SiteFragment"
+            android:icon="@android:drawable/ic_menu_mapmode"
+            android:title="SiteFragment"/>
     </group>
 </menu>

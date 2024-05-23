@@ -38,10 +38,8 @@ public class MainActivity extends AppCompatActivity {
         });
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_dataFragment, R.id.nav_webViewFragment, R.id.backgroundTaskFragment, R.id.compassFragment, R.id.photoCollageFragment, R.id.audioRecordFragment, R.id.profileFragment, R.id.workWithFilesFragment)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_dataFragment, R.id.nav_webViewFragment, R.id.backgroundTaskFragment, R.id.compassFragment, R.id.photoCollageFragment, R.id.audioRecordFragment, R.id.profileFragment, R.id.workWithFilesFragment, R.id.firebaseFragment, R.id.establishmentsFragment, R.id.SiteFragment)
                 .setOpenableLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment_content_main);
